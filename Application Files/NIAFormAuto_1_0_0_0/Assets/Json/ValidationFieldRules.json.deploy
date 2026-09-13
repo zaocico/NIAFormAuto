@@ -1,0 +1,368 @@
+{
+  "SenderRules": [
+    {
+      "FieldName": "代申請人姓名",
+      "Required": true,
+      "RegexPattern": "^.{1,20}$",
+      "RegexErrorMessage": "代申請人姓名必填且最多 20 個字"
+    },
+    {
+      "FieldName": "身分證號/統一證號",
+      "Required": true,
+      "RegexPattern": "^([A-Z]\\d{9}|[A-Z]{2}\\d{8})$",
+      "RegexErrorMessage": "身分證號或統一證號格式錯誤（應為 1 字母+9 數字，或 2 字母+8 數字）"
+    },
+    {
+      "FieldName": "電話",
+      "Required": true,
+      "RegexPattern": "^.{1,30}$",
+      "RegexErrorMessage": "電話必填且最多 30 個字"
+    },
+    {
+      "FieldName": "代申請人Email",
+      "Required": true,
+      "RegexPattern": "^[\\w\\.-]+@[\\w\\.-]+\\.\\w{2,}$",
+      "RegexErrorMessage": "代申請人Email 格式錯誤"
+    },
+    {
+      "FieldName": "地址（縣/市）",
+      "Required": true,
+      "RegexPattern": "^(臺北市|基隆市|新北市|宜蘭縣|新竹市|新竹縣|桃園市|苗栗縣|臺中市|彰化縣|南投縣|嘉義市|嘉義縣|雲林縣|臺南市|高雄市|澎湖縣|屏東縣|臺東縣|花蓮縣|金門縣|連江縣)$",
+      "RegexErrorMessage": "請選擇有效的縣市"
+    },
+    {
+      "FieldName": "地址（鄉/鎮/市/區）",
+      "Required": false,
+      "RegexPattern": "",
+      "RegexErrorMessage": "",
+      "SkipEnabledEmptyCheck": true
+    },
+    {
+      "FieldName": "地址（村/里）",
+      "Required": false,
+      "RegexPattern": "^.{0,5}$",
+      "RegexErrorMessage": "地址（村/里）最多 5 個字",
+      "SkipEnabledEmptyCheck": true
+    },
+    {
+      "FieldName": "地址（鄰）",
+      "Required": false,
+      "RegexPattern": "^.{0,5}$",
+      "RegexErrorMessage": "地址（鄰）最多 5 個字",
+      "SkipEnabledEmptyCheck": true
+    },
+    {
+      "FieldName": "地址（街段/路段）",
+      "Required": false,
+      "RegexPattern": "^.{0,10}$",
+      "RegexErrorMessage": "地址（街段/路段）最多 10 個字",
+      "SkipEnabledEmptyCheck": true
+    },
+    {
+      "FieldName": "地址（巷）",
+      "Required": false,
+      "RegexPattern": "^.{0,6}$",
+      "RegexErrorMessage": "地址（巷）最多 6 個字",
+      "SkipEnabledEmptyCheck": true
+    },
+    {
+      "FieldName": "地址（弄）",
+      "Required": false,
+      "RegexPattern": "^.{0,5}$",
+      "RegexErrorMessage": "地址（弄）最多 5 個字",
+      "SkipEnabledEmptyCheck": true
+    },
+    {
+      "FieldName": "地址（門牌號樓室）",
+      "Required": true,
+      "RegexPattern": "^.{1,50}$",
+      "RegexErrorMessage": "地址（門牌號樓室）必填且最多 50 個字"
+    }
+  ],
+  "RegDataRules": [
+    {
+      "FieldName": "申請名稱",
+      "Required": true,
+      "RegexPattern": "^.{1,25}$",
+      "RegexErrorMessage": "申請名稱必填且最多 25 個字"
+    },
+    {
+      "FieldName": "申請人數",
+      "Required": false,
+      "RegexPattern": "",
+      "RegexErrorMessage": ""
+    },
+    {
+      "FieldName": "申請證別",
+      "Required": false,
+      "RegexPattern": "",
+      "RegexErrorMessage": ""
+    },
+    {
+      "FieldName": "申請方式",
+      "Required": false,
+      "RegexPattern": "",
+      "RegexErrorMessage": ""
+    },
+    {
+      "FieldName": "聘僱許可文號",
+      "Required": true,
+      "RegexPattern": "^.{1,20}$",
+      "RegexErrorMessage": "聘僱許可文號必填且最多 20 個字"
+    },
+    {
+      "FieldName": "雇主申請業別",
+      "Required": true,
+      "RegexPattern": "^(製造業|營造業|家庭看護工|家庭幫傭|機構看護工|漁業|其他)$",
+      "RegexErrorMessage": "請選擇有效的雇主申請業別"
+    },
+    {
+      "FieldName": "雇主編號",
+      "Required": true,
+      "RegexPattern": "^.{1,10}$",
+      "RegexErrorMessage": "雇主編號必填且最多 10 個字"
+    },
+    {
+      "FieldName": "服務處所/單位",
+      "Required": true,
+      "RegexPattern": "^.{1,30}$",
+      "RegexErrorMessage": "服務處所/單位必填且最多 30 個字"
+    },
+    {
+      "FieldName": "服務處所電話",
+      "Required": true,
+      "RegexPattern": "^.{1,15}$",
+      "RegexErrorMessage": "服務處所電話必填且最多 15 個字"
+    },
+    {
+      "FieldName": "來臺工作地址（縣/市）",
+      "Required": true,
+      "RegexPattern": "^(臺北市|基隆市|新北市|宜蘭縣|新竹市|新竹縣|桃園市|苗栗縣|臺中市|彰化縣|南投縣|嘉義市|嘉義縣|雲林縣|臺南市|高雄市|澎湖縣|屏東縣|臺東縣|花蓮縣|金門縣|連江縣)$",
+      "RegexErrorMessage": "請選擇有效的縣市"
+    },
+    {
+      "FieldName": "來臺工作地址（鄉/鎮/市/區）",
+      "Required": false,
+      "RegexPattern": "",
+      "RegexErrorMessage": "",
+      "SkipEnabledEmptyCheck": true
+    },
+    {
+      "FieldName": "來臺工作地址（村/里）",
+      "Required": false,
+      "RegexPattern": "^.{0,5}$",
+      "RegexErrorMessage": "來臺工作地址（村/里）最多 5 個字",
+      "SkipEnabledEmptyCheck": true
+    },
+    {
+      "FieldName": "來臺工作地址（鄰）",
+      "Required": false,
+      "RegexPattern": "^.{0,5}$",
+      "RegexErrorMessage": "來臺工作地址（鄰）最多 5 個字",
+      "SkipEnabledEmptyCheck": true
+    },
+    {
+      "FieldName": "來臺工作地址（街段/路段）",
+      "Required": false,
+      "RegexPattern": "^.{0,10}$",
+      "RegexErrorMessage": "來臺工作地址（街段/路段）最多 10 個字",
+      "SkipEnabledEmptyCheck": true
+    },
+    {
+      "FieldName": "來臺工作地址（巷）",
+      "Required": false,
+      "RegexPattern": "^.{0,6}$",
+      "RegexErrorMessage": "來臺工作地址（巷）最多 6 個字",
+      "SkipEnabledEmptyCheck": true
+    },
+    {
+      "FieldName": "來臺工作地址（弄）",
+      "Required": false,
+      "RegexPattern": "^.{0,5}$",
+      "RegexErrorMessage": "來臺工作地址（弄）最多 5 個字",
+      "SkipEnabledEmptyCheck": true
+    },
+    {
+      "FieldName": "來臺工作地址（門牌號樓室）",
+      "Required": true,
+      "RegexPattern": "^.{1,50}$",
+      "RegexErrorMessage": "來臺工作地址（門牌號樓室）必填且最多 50 個字"
+    },
+    {
+      "FieldName": "居留地址（縣/市）",
+      "Required": true,
+      "RegexPattern": "^(臺北市|基隆市|新北市|宜蘭縣|新竹市|新竹縣|桃園市|苗栗縣|臺中市|彰化縣|南投縣|嘉義市|嘉義縣|雲林縣|臺南市|高雄市|澎湖縣|屏東縣|臺東縣|花蓮縣|金門縣|連江縣)$",
+      "RegexErrorMessage": "請選擇有效的縣市"
+    },
+    {
+      "FieldName": "居留地址（鄉/鎮/市/區）",
+      "Required": false,
+      "RegexPattern": "",
+      "RegexErrorMessage": "",
+      "SkipEnabledEmptyCheck": true
+    },
+    {
+      "FieldName": "居留地址（村/里）",
+      "Required": false,
+      "RegexPattern": "^.{0,5}$",
+      "RegexErrorMessage": "居留地址（村/里）最多 5 個字",
+      "SkipEnabledEmptyCheck": true
+    },
+    {
+      "FieldName": "居留地址（鄰）",
+      "Required": false,
+      "RegexPattern": "^.{0,5}$",
+      "RegexErrorMessage": "居留地址（鄰）最多 5 個字",
+      "SkipEnabledEmptyCheck": true
+    },
+    {
+      "FieldName": "居留地址（街段/路段）",
+      "Required": false,
+      "RegexPattern": "^.{0,10}$",
+      "RegexErrorMessage": "居留地址（街段/路段）最多 10 個字",
+      "SkipEnabledEmptyCheck": true
+    },
+    {
+      "FieldName": "居留地址（巷）",
+      "Required": false,
+      "RegexPattern": "^.{0,6}$",
+      "RegexErrorMessage": "居留地址（巷）最多 6 個字",
+      "SkipEnabledEmptyCheck": true
+    },
+    {
+      "FieldName": "居留地址（弄）",
+      "Required": false,
+      "RegexPattern": "^.{0,5}$",
+      "RegexErrorMessage": "居留地址（弄）最多 5 個字",
+      "SkipEnabledEmptyCheck": true
+    },
+    {
+      "FieldName": "居留地址（門牌號樓室）",
+      "Required": true,
+      "RegexPattern": "^.{1,50}$",
+      "RegexErrorMessage": "居留地址（門牌號樓室）必填且最多 50 個字"
+    },
+    {
+      "FieldName": "領證方式",
+      "Required": true,
+      "RegexPattern": "^(自取\\(在臺灣領證\\))$",
+      "RegexErrorMessage": "請選擇有效的領證方式"
+    },
+    {
+      "FieldName": "領證地點",
+      "Required": true,
+      "RegexPattern": "^(臺北市服務站|新北市服務站|基隆市服務站|桃園市服務站|新竹市服務站|新竹縣服務站|苗栗縣服務站|臺中市第一服務站|臺中市第二服務站|南投縣服務站|彰化縣服務站|雲林縣服務站|嘉義市服務站|嘉義縣服務站|臺南市第一服務站|臺南市第二服務站|高雄市第一服務站|高雄市第二服務站|屏東縣服務站|宜蘭縣服務站|花蓮縣服務站|臺東縣服務站|澎湖縣服務站|金門縣服務站|連江縣服務站)$",
+      "RegexErrorMessage": "請選擇有效的領證地點"
+    }
+  ],
+  "ApplicantRules": [
+    {
+      "FieldName": "居留證效期",
+      "Required": true,
+      "RegexPattern": "^(一年|二年|三年|補效期)$",
+      "RegexErrorMessage": "請選擇有效的居留證效期"
+    },
+    {
+      "FieldName": "英文姓名",
+      "Required": true,
+      "RegexPattern": "^.{1,50}$",
+      "RegexErrorMessage": "英文姓名必填且最多 50 個字"
+    },
+    {
+      "FieldName": "中文姓名",
+      "Required": false,
+      "RegexPattern": "^.{0,20}$",
+      "RegexErrorMessage": "中文姓名最多 20 個字"
+    },
+    {
+      "FieldName": "出生日期",
+      "Required": false,
+      "RegexPattern": "",
+      "RegexErrorMessage": ""
+    },
+    {
+      "FieldName": "國籍",
+      "Required": false,
+      "RegexPattern": "",
+      "RegexErrorMessage": ""
+    },
+    {
+      "FieldName": "統一證號(非必填)",
+      "Required": false,
+      "RegexPattern": "",
+      "RegexErrorMessage": ""
+    },
+    {
+      "FieldName": "性別",
+      "Required": false,
+      "RegexPattern": "",
+      "RegexErrorMessage": ""
+    },
+    {
+      "FieldName": "護照號碼",
+      "Required": true,
+      "RegexPattern": "^.{1,15}$",
+      "RegexErrorMessage": "護照號碼必填且最多 15 個字"
+    },
+    {
+      "FieldName": "護照有效日期",
+      "Required": true,
+      "RegexPattern": "^.{10}$",
+      "RegexErrorMessage": "護照有效日期必須為 10 個字元"
+    },
+    {
+      "FieldName": "職業",
+      "Required": true,
+      "RegexPattern": "^(家庭幫傭工|家庭看護工|營造工|製造工|移工\\(經中央主管機關指定之工作\\)|海洋漁撈工|農業工|外展農務工|外展製造工|機構看護工|屠宰工|多元陪伴照顧服務工|廢棄物及資源回收處理工)$",
+      "RegexErrorMessage": "請選擇有效的職業"
+    },
+    {
+      "FieldName": "婚姻狀況",
+      "Required": false,
+      "RegexPattern": "^(|未婚|已婚|離婚|鰥|寡|分居|其他)$",
+      "RegexErrorMessage": "請選擇有效的婚姻狀況"
+    },
+    {
+      "FieldName": "最高學歷",
+      "Required": false,
+      "RegexPattern": "^(|博士|碩士|大學|專科|五專|高中|國中|國小|無)$",
+      "RegexErrorMessage": "請選擇有效的最高學歷"
+    },
+    {
+      "FieldName": "電子郵件",
+      "Required": true,
+      "RegexPattern": "^[\\w\\.-]+@[\\w\\.-]+\\.\\w{2,}$",
+      "RegexErrorMessage": "電子郵件格式錯誤"
+    },
+    {
+      "FieldName": "在臺室內電話",
+      "Required": false,
+      "RegexPattern": "^.{0,15}$",
+      "RegexErrorMessage": "在臺室內電話最多 15 個字"
+    },
+    {
+      "FieldName": "在臺聯絡手機號碼",
+      "Required": true,
+      "RegexPattern": "^09\\d{8}$",
+      "RegexErrorMessage": "手機號碼必須為 09 開頭的 10 碼數字"
+    },
+    {
+      "FieldName": "出生地點(國籍)",
+      "Required": true,
+      "RegexPattern": "^(阿富汗|不丹|汶萊|緬甸|柬埔寨|斯里蘭卡|賽普勒斯|印度|印尼|伊朗|伊拉克|以色列|日本|約旦|南韓|科威特|寮國|黎巴嫩|馬來西亞|馬爾地夫|蒙古|尼泊爾|巴基斯坦|菲律賓|卡達|沙烏地阿拉伯|新加坡|南葉門|敘利亞|泰國|東帝汶|土耳其|北葉門|越南|中華民國|香港|孟加拉共和國|阿曼|吉里巴斯|塞席爾|吐瓦魯|阿拉伯聯合大公國|索羅門群島|中國大陸|北韓|葉門|巴勒斯坦|澳門|澳大利亞|斐濟|諾魯|紐西蘭|東加王國|薩摩亞獨立國|萬那杜|科克群島|紐威島|百慕達|澳屬椰子群島|聖誕島|北馬利亞納群島|新喀里多尼亞島|沃里斯與伏塔那島|諾福克群島|托克勞群島|美國邊疆群島|英屬皮特康島|法屬玻里尼西亞|密克羅尼西亞|帛琉|阿爾巴尼亞|安道爾|奧地利|比利時|保加利亞|白俄羅斯|捷克|丹麥|芬蘭|法國|德國|希臘|教廷|匈牙利|冰島|愛爾蘭|義大利|列支敦斯登|盧森堡|馬爾他|摩納哥|荷蘭|挪威|波蘭|葡萄牙|羅馬尼亞|聖馬利諾|西班牙|瑞典|瑞士|烏克蘭|英國|巴布亞紐幾內亞|拉脫維亞|愛沙尼亞|亞美尼亞|俄羅斯|立陶宛|烏茲別克|哈薩克|摩爾多瓦|吉爾吉斯|塔吉克|土庫曼|亞塞拜然|喬治亞|克羅埃西亞|斯洛維尼亞|北馬其頓|波士尼亞與赫塞哥維納|斯洛伐克|蒙特內哥羅|塞爾維亞|科索沃|丹麥屬法羅群島|格林蘭|挪威屬斯瓦爾巴特群島|巴哈馬|巴貝多|加拿大|哥斯大黎加|古巴|多明尼加|薩爾瓦多|瓜地馬拉|海地|宏都拉斯|牙買加|墨西哥|尼加拉瓜|巴拿馬|美國|格瑞那達|馬紹爾群島共和國|英屬維爾京群島|阿根廷|玻利維亞|巴西|智利|哥倫比亞|厄瓜多|蓋亞那|烏拉圭|巴拉圭|秘魯|蘇利南|千里達及托巴哥|委內瑞拉|安地卡及巴布達|多米尼克|法屬圭亞那|聖馬丁\\(荷屬\\)|古拉索|阿魯巴|荷屬安地列斯|開曼群島|福克蘭群島|法屬瓜德魯普島|英屬蒙瑟拉特島|法屬馬丁尼克|南喬治亞與南桑威奇群島|法屬聖皮埃爾和密克隆群島|英屬土克斯及開科斯群島|美屬維爾京群島|阿爾及利亞|波札那|蒲隆地|中非共和國|喀麥隆|查德|剛果共和國|貝南共和國|赤道幾內亞|衣索比亞|加彭|甘比亞|迦納|幾內亞|象牙海岸|肯亞|賴索托|賴比瑞亞|利比亞|馬達加斯加|馬拉威|馬利|茅利塔尼亞|模里西斯|摩洛哥|尼日|奈及利亞|辛巴威|盧安達|塞內加爾|獅子山|索馬利亞|南非|蘇丹|史瓦帝尼|坦尚尼亞|多哥|突尼西亞|烏干達|埃及|布吉納法索|尚比亞|巴林|厄利垂亞|莫三比克|安哥拉|維德角共和國|吉布地|葛摩聯邦|西撒哈拉|幾內亞比索共和國|聖多美普林西比|納米比亞|剛果民主共和國|南蘇丹|英屬印度洋地區|美亞特|英屬聖赫勒拿島|索馬利蘭|聖文森及格瑞那丁|聖露西亞|聖克里斯多福及尼維斯|貝里斯|法屬南部屬地|波維特島|赫德及麥當勞群島|無國籍-依1954年無國籍人士公約|難民-依1954年難民公約所定義|難民-非依1954年難民公約所定義|無國籍-不屬於代碼994、995及996者|無國籍)$",
+      "RegexErrorMessage": "請選擇有效的出生地點國籍"
+    },
+    {
+      "FieldName": "出生地點(市/州)",
+      "Required": false,
+      "RegexPattern": "^.{0,16}$",
+      "RegexErrorMessage": "出生地點(市/州)最多 16 個字"
+    },
+    {
+      "FieldName": "意見欄",
+      "Required": false,
+      "RegexPattern": "^.{0,250}$",
+      "RegexErrorMessage": "意見欄最多 250 個字"
+    }
+  ]
+}

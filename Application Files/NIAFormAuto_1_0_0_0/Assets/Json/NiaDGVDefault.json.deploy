@@ -1,0 +1,416 @@
+[
+    {
+        "Sender": 
+        [
+            {
+                "Enabled": false,
+                "FieldName": "代申請人姓名",
+                "Value": "",
+                "ActionType": "assert"
+            },
+            {
+                "Enabled": false,
+                "FieldName": "身分證號/統一證號",
+                "Value": "",
+                "ActionType": "assert"
+            },
+            {
+                "Enabled": true,
+                "FieldName": "電話",
+                "Value": "",
+                "ActionType": "update"
+            },
+            {
+                "Enabled": false,
+                "FieldName": "代申請人Email",
+                "Value": "",
+                "ActionType": "assert"
+            },
+            {
+                "Enabled": false,
+                "FieldName": "地址（縣/市）",
+                "Value": "",
+                "ActionType": "assert"
+            },
+            {
+                "Enabled": false,
+                "FieldName": "地址（鄉/鎮/市/區）",
+                "Value": "",
+                "ActionType": "assert"
+            },
+            {
+                "Enabled": false,
+                "FieldName": "地址（村/里）",
+                "Value": "",
+                "ActionType": "assert"
+            },
+            {
+                "Enabled": false,
+                "FieldName": "地址（鄰）",
+                "Value": "",
+                "ActionType": "assert"
+            },
+            {
+                "Enabled": false,
+                "FieldName": "地址（街段/路段）",
+                "Value": "",
+                "ActionType": "assert"
+            },
+            {
+                "Enabled": false,
+                "FieldName": "地址（巷）",
+                "Value": "",
+                "ActionType": "assert"
+            },
+            {
+                "Enabled": false,
+                "FieldName": "地址（弄）",
+                "Value": "",
+                "ActionType": "assert"
+            },
+            {
+                "Enabled": false,
+                "FieldName": "地址（門牌號樓室）",
+                "Value": "",
+                "ActionType": "assert"
+            }
+        ]
+        ,
+        "RegData":
+        [
+            {
+                "Enabled": true,
+                "FieldName": "申請名稱",
+                "Value": "",
+                "ActionType": "update"
+            },
+            {
+                "Enabled": false,
+                "FieldName": "申請人數",
+                "Value": "",
+                "ActionType": "assert"
+            },
+            {
+                "Enabled": false,
+                "FieldName": "申請證別",
+                "Value": "IC居留證",
+                "ActionType": "assert"
+            },
+            {
+                "Enabled": false,
+                "FieldName": "申請方式",
+                "Value": "仲介公司辦理",
+                "ActionType": "assert"
+            },
+            {
+                "Enabled": true,
+                "FieldName": "聘僱許可文號",
+                "Value": "",
+                "ActionType": "update"
+            },
+            {
+                "Enabled": true,
+                "FieldName": "雇主申請業別",
+                "Value": "",
+                "ActionType": "update"
+            },
+            {
+                "Enabled": true,
+                "FieldName": "雇主編號",
+                "Value": "",
+                "ActionType": "update"
+            },
+            {
+                "Enabled": true,
+                "FieldName": "服務處所/單位",
+                "Value": "",
+                "ActionType": "update"
+            },
+            {
+                "Enabled": true,
+                "FieldName": "服務處所電話",
+                "Value": "",
+                "ActionType": "update"
+            },
+            {
+                "Enabled": true,
+                "FieldName": "來臺工作地址（縣/市）",
+                "Value": "",
+                "ActionType": "update"
+            },
+            {
+                "Enabled": true,
+                "FieldName": "來臺工作地址（鄉/鎮/市/區）",
+                "Value": "",
+                "ActionType": "update"
+            },
+            {
+                "Enabled": true,
+                "FieldName": "來臺工作地址（村/里）",
+                "Value": "",
+                "ActionType": "update"
+            },
+            {
+                "Enabled": true,
+                "FieldName": "來臺工作地址（鄰）",
+                "Value": "",
+                "ActionType": "update"
+            },
+            {
+                "Enabled": true,
+                "FieldName": "來臺工作地址（街段/路段）",
+                "Value": "",
+                "ActionType": "update"
+            },
+            {
+                "Enabled": true,
+                "FieldName": "來臺工作地址（巷）",
+                "Value": "",
+                "ActionType": "update"
+            },
+            {
+                "Enabled": true,
+                "FieldName": "來臺工作地址（弄）",
+                "Value": "",
+                "ActionType": "update"
+            },
+            {
+                "Enabled": true,
+                "FieldName": "來臺工作地址（門牌號樓室）",
+                "Value": "",
+                "ActionType": "update"
+            },
+            {
+                "Enabled": true,
+                "FieldName": "居留地址（縣/市）",
+                "Value": "",
+                "ActionType": "update"
+            },
+            {
+                "Enabled": true,
+                "FieldName": "居留地址（鄉/鎮/市/區）",
+                "Value": "",
+                "ActionType": "update"
+            },
+            {
+                "Enabled": true,
+                "FieldName": "居留地址（村/里）",
+                "Value": "",
+                "ActionType": "update"
+            },
+            {
+                "Enabled": true,
+                "FieldName": "居留地址（鄰）",
+                "Value": "",
+                "ActionType": "update"
+            },
+            {
+                "Enabled": true,
+                "FieldName": "居留地址（街段/路段）",
+                "Value": "",
+                "ActionType": "update"
+            },
+            {
+                "Enabled": true,
+                "FieldName": "居留地址（巷）",
+                "Value": "",
+                "ActionType": "update"
+            },
+            {
+                "Enabled": true,
+                "FieldName": "居留地址（弄）",
+                "Value": "",
+                "ActionType": "update"
+            },
+            {
+                "Enabled": true,
+                "FieldName": "居留地址（門牌號樓室）",
+                "Value": "",
+                "ActionType": "update"
+            },
+            {
+                "Enabled": true,
+                "FieldName": "領證方式",
+                "Value": "自取(在臺灣領證)",
+                "ActionType": "assert"
+            },
+            {
+                "Enabled": true,
+                "FieldName": "領證地點",
+                "Value": "新竹縣服務站",
+                "ActionType": "update"
+            }
+        ],
+        "RegDataAttach":
+        [
+            {
+                "Enabled": true,
+                "FieldName": "1. 委託書",
+                "Value": [""],
+                "ActionType": "upload"
+            },
+            {
+                "Enabled": true,
+                "FieldName": "2. 勞動部核准聘僱公文",
+                "Value": [""],
+                "ActionType": "upload"
+            },
+            {
+                "Enabled": true,
+                "FieldName": "3. 移民業務機構或私立就業服務機構許可證",
+                "Value": [""],
+                "ActionType": "upload"
+            },
+            {
+                "Enabled": true,
+                "FieldName": "4. 送件人之私立就業服務機構員工證明",
+                "Value": [""],
+                "ActionType": "upload"
+            },
+            {
+                "Enabled": true,
+                "FieldName": "5. 其他相關證明文件(無則免)",
+                "Value": [""],
+                "ActionType": "upload"
+            }
+        ],
+        "Applicant":
+        [
+            {
+                "Enabled": true,
+                "FieldName": "居留證效期",
+                "Value": "一年",
+                "ActionType": "update"
+            },
+            {
+                "Enabled": false,
+                "FieldName": "英文姓名",
+                "Value": "",
+                "ActionType": "assert"
+            },
+            {
+                "Enabled": false,
+                "FieldName": "中文姓名",
+                "Value": "",
+                "ActionType": "assert"
+            },
+            {
+                "Enabled": false,
+                "FieldName": "出生日期",
+                "Value": "",
+                "ActionType": "assert"
+            },
+            {
+                "Enabled": false,
+                "FieldName": "國籍",
+                "Value": "",
+                "ActionType": "assert"
+            },
+            {
+                "Enabled": false,
+                "FieldName": "統一證號(非必填)",
+                "Value": "",
+                "ActionType": "assert"
+            },
+            {
+                "Enabled": false,
+                "FieldName": "性別",
+                "Value": "",
+                "ActionType": "assert"
+            },
+            {
+                "Enabled": false,
+                "FieldName": "護照號碼",
+                "Value": "",
+                "ActionType": "assert"
+            },
+            {
+                "Enabled": false,
+                "FieldName": "護照有效日期",
+                "Value": "",
+                "ActionType": "assert"
+            },
+            {
+                "Enabled": false,
+                "FieldName": "職業",
+                "Value": "",
+                "ActionType": "assert"
+            },
+            {
+                "Enabled": false,
+                "FieldName": "婚姻狀況",
+                "Value": "",
+                "ActionType": "assert"
+            },
+            {
+                "Enabled": false,
+                "FieldName": "最高學歷",
+                "Value": "",
+                "ActionType": "assert"
+            },
+            {
+                "Enabled": false,
+                "FieldName": "電子郵件",
+                "Value": "",
+                "ActionType": "assert"
+            },
+            {
+                "Enabled": false,
+                "FieldName": "在臺室內電話",
+                "Value": "",
+                "ActionType": "assert"
+            },
+            {
+                "Enabled": true,
+                "FieldName": "在臺聯絡手機號碼",
+                "Value": "",
+                "ActionType": "update"
+            },
+            {
+                "Enabled": false,
+                "FieldName": "出生地點(國籍)",
+                "Value": "",
+                "ActionType": "assert"
+            },
+            {
+                "Enabled": false,
+                "FieldName": "出生地點(市/州)",
+                "Value": "",
+                "ActionType": "assert"
+            },
+            {
+                "Enabled": false,
+                "FieldName": "意見欄",
+                "Value": "",
+                "ActionType": "update"
+            }
+        ],
+        "ApplicantAttach":
+        [
+            {
+                "Enabled": true,
+                "FieldName": "1. 居留證",
+                "Value": [""],
+                "ActionType": "upload"
+            },
+            {
+                "Enabled": true,
+                "FieldName": "2. 在職證明書",
+                "Value": [""],
+                "ActionType": "upload"
+            },
+            {
+                "Enabled": true,
+                "FieldName": "3. 護照",
+                "Value": [""],
+                "ActionType": "upload"
+            },
+            {
+                "Enabled": true,
+                "FieldName": "4. 其他相關證明文件(無則免)",
+                "Value": [""],
+                "ActionType": "upload"
+            }
+        ]
+    }
+]

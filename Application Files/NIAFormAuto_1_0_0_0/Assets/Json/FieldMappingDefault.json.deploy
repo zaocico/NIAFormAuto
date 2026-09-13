@@ -1,0 +1,161 @@
+{
+    "RegDataRules": [
+        {
+            "FieldName": "申請名稱",
+            "Enabled": true,
+            "Expression": "{今天日期:yyyyMMdd}-{移工編號}{僱主名稱}{案件申請人數}人()"
+        },
+        {
+            "FieldName": "申請人數",
+            "Enabled": true,
+            "Expression": "{案件申請人數}"
+        },
+        {
+            "FieldName": "申請證別",
+            "Enabled": false,
+            "Expression": ""
+        },
+        {
+            "FieldName": "申請方式",
+            "Enabled": false,
+            "Expression": ""
+        },
+        {
+            "FieldName": "聘僱許可文號",
+            "Enabled": true,
+            "Expression": "{聘僱函號}"
+        },
+        {
+            "FieldName": "雇主申請業別",
+            "Enabled": true,
+            "Expression": "{工作}"
+        },
+        {
+            "FieldName": "雇主編號",
+            "Enabled": true,
+            "Expression": "{僱主統一身份證號}"
+        },
+        {
+            "FieldName": "服務處所/單位",
+            "Enabled": true,
+            "Expression": "{雇主全名}"
+        },
+        {
+            "FieldName": "服務處所電話",
+            "Enabled": true,
+            "Expression": "{雇主電話1}"
+        },
+        {
+            "FieldName": "來臺工作地址",
+            "Enabled": true,
+            "Expression": "{工作地址}"
+        },
+        {
+            "FieldName": "居留地址",
+            "Enabled": true,
+            "Expression": "{居留地址}"
+        },
+        {
+            "FieldName": "領證方式",
+            "Enabled": false,
+            "Expression": ""
+        },
+        {
+            "FieldName": "領證地點",
+            "Enabled": false,
+            "Expression": ""
+        }
+    ],
+    "ApplicantRules": [
+        {
+            "FieldName": "居留證效期",
+            "Enabled": false,
+            "Expression": ""
+        },
+        {
+            "FieldName": "英文姓名",
+            "Enabled": true,
+            "Expression": "{移工姓名}"
+        },
+        {
+            "FieldName": "中文姓名",
+            "Enabled": true,
+            "Expression": "{移工中文姓名}"
+        },
+        {
+            "FieldName": "出生日期",
+            "Enabled": true,
+            "Expression": "{出生日期}"
+        },
+        {
+            "FieldName": "國籍",
+            "Enabled": true,
+            "Expression": "{國籍}"
+        },
+        {
+            "FieldName": "統一證號(非必填)",
+            "Enabled": false,
+            "Expression": ""
+        },
+        {
+            "FieldName": "性別",
+            "Enabled": true,
+            "Expression": "{性別}"
+        },
+        {
+            "FieldName": "護照號碼",
+            "Enabled": true,
+            "Expression": "{護照號碼}"
+        },
+        {
+            "FieldName": "護照有效日期",
+            "Enabled": true,
+            "Expression": "{護照效期}"
+        },
+        {
+            "FieldName": "職業",
+            "Enabled": false,
+            "Expression": ""
+        },
+        {
+            "FieldName": "婚姻狀況",
+            "Enabled": false,
+            "Expression": ""
+        },
+        {
+            "FieldName": "最高學歷",
+            "Enabled": false,
+            "Expression": ""
+        },
+        {
+            "FieldName": "電子郵件",
+            "Enabled": false,
+            "Expression": ""
+        },
+        {
+            "FieldName": "在臺室內電話",
+            "Enabled": false,
+            "Expression": ""
+        },
+        {
+            "FieldName": "在臺聯絡手機號碼",
+            "Enabled": true,
+            "Expression": "{移工手機號碼}"
+        },
+        {
+            "FieldName": "出生地點(國籍)",
+            "Enabled": true,
+            "Expression": "{國籍}"
+        },
+        {
+            "FieldName": "出生地點(市/州)",
+            "Enabled": false,
+            "Expression": ""
+        },
+        {
+            "FieldName": "意見欄",
+            "Enabled": false,
+            "Expression": ""
+        }
+    ]
+}
